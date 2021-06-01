@@ -526,17 +526,37 @@ textarea::placeholder {
   font-weight: bold;
 }
 
-.main_copy {
-  top: 400px;
+@media (max-width: 640px) {
+  .contents_main_left .main_logo {
+    display: block !important;
+  }
 }
 
-.main_loader {
-  bottom: 300px !important;
+.main_logo {
+  margin: 0 0 0 -110px !important;
 }
 
 @media (max-width: 640px) {
-  .main_loader {
-    bottom: 300px !important;
+  .main_logo {
+    margin: 0 0 0 0 !important;
+  }
+}
+
+.main_copy {
+  bottom: 370px !important;
+  margin: 0 0 0 -106px !important;
+}
+
+@media (max-width: 640px) {
+  .main_copy {
+    display: none;
+    margin: 0 0 0 0 !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .main_copy p {
+    background: #fff !important;
   }
 }
 
@@ -836,17 +856,24 @@ ul.max-menu {
   width: 100%;
 }
 
-#slider-wrapper {
-  height: 670px;
-}
-
 #slider-wrapper .contents_main_left {
   width: 400px;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 15;
+  z-index: 20;
+}
+
+@media (max-width: 640px) {
+  #slider-wrapper .contents_main_left {
+    margin: 0 !important;
+    top: 0px !important;
+    left: 0px;
+    z-index: 20;
+    width: 100%;
+    background: #fff;
+  }
 }
 
 #slider-wrapper .contents_main_left .main_txt {
@@ -5117,7 +5144,6 @@ textarea {
     width: 170px;
     height: 170px;
     right: 25px !important;
-    bottom: 115px !important;
     margin: 0;
   }
   .main_loader_number > div {

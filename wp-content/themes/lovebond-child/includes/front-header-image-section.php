@@ -10,17 +10,17 @@
 <?php if( get_header_image() ) { ?>
 
  <!--/LOADING/-->
- <!-- <div class="loading opening">
+ <div class="loading opening">
 	<div class="loading_inner">
 		<div class="loading_logo">
 			<div><span class="opa"></span><span></span></div>
 			<img src="img/mg3.svg" alt="SINCE 1900｜昭和00年創業">
 		</div>
 	</div>
-</div> -->
+</div>
 		
 		
-<section id="slider-wrapper" class="home_intro wrap wrap_on">
+<section id="slider-wrapper" class="wrap wrap_on">
 
 	<!-- <div class="contents_main_left">
 
@@ -123,9 +123,9 @@
 					</div>
 				</div>
 
-				<div class="contents_main_scroll contents_scroll">
+				<!-- <div class="contents_main_scroll contents_scroll">
 					<div><span class="opa"></span></div>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
