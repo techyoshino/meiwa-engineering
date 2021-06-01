@@ -101,12 +101,70 @@ get_header(); ?>
 					
 					<li>
 						<div class="service-list-icon">
+						<i class="fas fa-cubes"></i>
+						</div>
+						<div class="service-list-txt">
+						マザーマシンのオーダーメイド
+						</div>
+					</li>
+
+					<li>
+						<div class="service-list-icon">
+						<i class="fas fa-tools"></i>
+						</div>
+						<div class="service-list-txt">
+						NC機器のレトロフィット
+						</div>
+					</li>
+
+					<li>
+						<div class="service-list-icon">
+						<i class="fas fa-chalkboard-teacher"></i>
+						</div>
+						<div class="service-list-txt">
+						ロボットティーチング
+						</div>
+					</li>
+
+					<li>
+						<div class="service-list-icon">
+						<i class="fas fa-leaf"></i>
+						</div>
+						<div class="service-list-txt">
+						省力機器開発
+						</div>
+					</li>
+
+					<li>
+						<div class="service-list-icon">
+						<i class="fas fa-oil-can"></i>
+						</div>
+						<div class="service-list-txt">
+						油圧・潤滑・空圧システム開発
+						</div>
+					</li>
+
+					<li>
+						<div class="service-list-icon">
+						<i class="fas fa-users-cog"></i>
+						</div>
+						<div class="service-list-txt">
+						工作機械の据付、移設
+						</div>
+					</li>
+
+					<?php
+					/*
+					<li>
+						<div class="service-list-icon">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
 						</div>
 						<div class="service-list-txt">
 							新築工事
 						</div>
 					</li>
+
+					
 
 					<li>
 						<div class="service-list-icon">
@@ -135,59 +193,8 @@ get_header(); ?>
 						</div>
 					</li>
 
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
+					*/
+					?>
 				</ul>
 				
 				<div class="service-list-btn">

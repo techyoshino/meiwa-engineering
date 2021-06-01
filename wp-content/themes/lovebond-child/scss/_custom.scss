@@ -565,21 +565,21 @@ ul.max-menu {
             border: 1px solid $green_color;
             list-style: none;
             li {
-                width: calc(100%/5);
-                padding: 10px;
+                width: calc(100%/3);
+                padding: 20px;
                 text-align: center;
                 font-weight: bold;
                 color: $green_color;
                 .service-list-icon {
-                    img {
-                        width: 160px;
+                    i {
+                        font-size: 50px;
                     }
                 }
             }
-            li:not(:nth-child(5n)) {
+            li:not(:nth-child(3n)) {
                 border-right: 1px solid $green_color;
             }
-            li:nth-last-child(n+6) {
+            li:nth-last-child(n+4) {
                 border-bottom: 1px solid $green_color;
             }
         }

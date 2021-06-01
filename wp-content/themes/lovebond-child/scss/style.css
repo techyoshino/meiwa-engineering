@@ -933,22 +933,22 @@ ul.max-menu {
 }
 
 #top-wrapper .block-3 ul li {
-  width: calc(100%/5);
-  padding: 10px;
+  width: calc(100%/3);
+  padding: 20px;
   text-align: center;
   font-weight: bold;
   color: #009f41;
 }
 
-#top-wrapper .block-3 ul li .service-list-icon img {
-  width: 160px;
+#top-wrapper .block-3 ul li .service-list-icon i {
+  font-size: 50px;
 }
 
-#top-wrapper .block-3 ul li:not(:nth-child(5n)) {
+#top-wrapper .block-3 ul li:not(:nth-child(3n)) {
   border-right: 1px solid #009f41;
 }
 
-#top-wrapper .block-3 ul li:nth-last-child(n+6) {
+#top-wrapper .block-3 ul li:nth-last-child(n+4) {
   border-bottom: 1px solid #009f41;
 }
 
