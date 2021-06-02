@@ -388,3 +388,19 @@ input::placeholder {
 textarea::placeholder {
     color: #ccc;
 }
+
+
+/* navi */
+
+.sub_img:before {
+    background: #fff !important;
+}
+
+.sub_menu a {
+    color: #000 !important;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    display: inline-block;
+    padding: 6px 0;
+}
