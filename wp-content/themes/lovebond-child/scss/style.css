@@ -848,7 +848,7 @@ ul.max-menu {
 
 .main_menu_btn {
   right: 2%;
-  top: 10%;
+  top: 60px;
 }
 
 @media (max-width: 640px) {
@@ -862,6 +862,10 @@ ul.max-menu {
 #cotnents-page {
   position: static;
   height: auto;
+}
+
+#cotnents-page #slider-wrapper {
+  height: 500px;
 }
 
 @media (max-width: 640px) {
@@ -916,7 +920,7 @@ ul.max-menu {
   #cotnents-page .contents_main_left .main_copy {
     left: 10px;
     top: 230px;
-    display: block !important;
+    display: block;
   }
 }
 
@@ -1094,6 +1098,141 @@ ul.max-menu {
   .block-5 {
     margin-top: 50px;
   }
+}
+
+.content-pages .contents_block {
+  position: relative;
+  margin: 0px 0px;
+}
+
+.about .block-1 .block-1_inner_col {
+  overflow: hidden;
+}
+
+.about .block-1 h2 {
+  text-align: center;
+  margin: 100px 0px;
+  font-weight: bold;
+}
+
+.about .block-1 .left-txt-cap h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about .block-1 .left-txt-in p {
+  font-weight: normal;
+}
+
+.about .block-1 .left-txt-bottom {
+  text-align: left;
+}
+
+.about .block-1 .left-txt-bottom span {
+  font-weight: normal;
+}
+
+.about .block-1 .left-txt-bottom p {
+  font-weight: bold;
+}
+
+.about .block-1 .block-1_inner_img_w_all {
+  margin: 10px 0px;
+  clear: both;
+}
+
+.about .block-2 {
+  margin: 50px 0px;
+}
+
+.about .block-2 .centents-about-table {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.about .block-2 .centents-about-table table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.about .block-2 .centents-about-table table th {
+  border-bottom: solid 2px #009f41;
+  padding: 20px 20px;
+  width: 30%;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+@media (max-width: 640px) {
+  .about .block-2 .centents-about-table table th {
+    width: 100%;
+    display: block;
+  }
+}
+
+.about .block-2 .centents-about-table table td {
+  padding: 20px 20px;
+  width: 70%;
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  text-align: left;
+}
+
+@media (max-width: 640px) {
+  .about .block-2 .centents-about-table table td {
+    width: 100%;
+    display: block;
+  }
+}
+
+.about .block-2 .about-map {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .about .block-2 .about-map {
+    width: 100%;
+  }
+}
+
+.about .block-2 .about-map .gmap {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.about .block-2 .about-map .gmap iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.about .block-3 .history {
+  position: relative;
+}
+
+.about .block-3 .history .line {
+  width: 1px;
+  height: 100%;
+  /* padding: 26px 0; */
+  position: absolute;
+  top: 0;
+  left: 125px;
+}
+
+.about .block-3 .history .line span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #009f41;
 }
 
 @media (max-width: 640px) {

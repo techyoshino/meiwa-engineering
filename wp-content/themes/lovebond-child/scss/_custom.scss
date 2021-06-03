@@ -473,7 +473,7 @@ ul.max-menu {
 ////////////////////////////////////////////////////
 .main_menu_btn {
     right: 2%;
-    top: 10%;
+    top: 60px;
     @include breakpoint(mobile) {
         right: 2%;
         top: 0%;
@@ -487,6 +487,7 @@ ul.max-menu {
     position: static;
     height: auto;
     #slider-wrapper {
+        height: 500px;
         @include breakpoint(mobile) {
             height: 300px;
         }
@@ -526,7 +527,7 @@ ul.max-menu {
             @include breakpoint(mobile) {
                 left: 10px;
                 top: 230px;
-                display: block !important;
+                display: block;
             }
             p {
                 color: #000;
@@ -693,6 +694,131 @@ ul.max-menu {
     overflow: hidden;
     @include breakpoint(mobile) {
         margin-top: 50px;
+    }
+}
+
+////////////////////////////////////////////////////
+// CONTENT PAGE
+////////////////////////////////////////////////////
+.content-pages {
+    .contents_block {
+        position: relative;
+        margin: 0px 0px;
+    }
+}
+
+// 会社情報　about
+////////////////////////////////////////////////////
+.about {
+    .block-1 {
+        .block-1_inner_col {
+            overflow: hidden;
+        }
+        h2 {
+            text-align: center;
+            margin: 100px 0px;
+            font-weight: bold;
+        }
+        .left-txt-cap {
+            h4 {
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+        .left-txt-in {
+            p {
+                font-weight: normal;
+            }
+        }
+        .left-txt-bottom {
+            text-align: left;
+            span {
+                font-weight: normal;
+            }
+            p {
+                font-weight: bold;
+            }
+        }
+        .block-1_inner_img_w_all {
+            margin: 10px 0px;
+            clear: both;
+        }
+    }
+    .block-2 {
+        margin: 50px 0px;
+        .centents-about-table {
+            width: 800px;
+            margin: 0 auto;
+            table {
+                width: 100%;
+                border-spacing: 0;
+            }
+            table th {
+                border-bottom: solid 2px $green_color;
+                padding: 20px 20px;
+                width: 30%;
+                background: none;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            table td {
+                padding: 20px 20px;
+                width: 70%;
+                border-bottom: 1px solid #ddd;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+                text-align: left;
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+        .about-map {
+            width: 800px;
+            margin: 0 auto;
+            @include breakpoint(mobile) {
+                width: 100%;
+            }
+            .gmap {
+                height: 0;
+                overflow: hidden;
+                padding-bottom: 56.25%;
+                position: relative;
+            }
+            .gmap iframe {
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    .block-3 {
+        .history {
+            position: relative;
+            .line {
+                width: 1px;
+                height: 100%;
+                /* padding: 26px 0; */
+                position: absolute;
+                top: 0;
+                left: 125px;
+                span {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 159, 65, 1);
+                }
+            }
+        }
     }
 }
 
